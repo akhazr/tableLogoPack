@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" role="img" aria-label="Illustration of a custom branded coffee cup with sleeve, a kraft paper takeout bag and a paper sleeve bag">
+  <defs>
+    <linearGradient id="kraft" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d2a878"/>
+      <stop offset="1" stop-color="#bf915f"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#f6efe4"/>
+      <stop offset="1" stop-color="#e9dfcf"/>
+    </linearGradient>
+    <linearGradient id="sleevebag" x1="0" x2="1">
+      <stop offset="0" stop-color="#fbf7f0"/>
+      <stop offset="1" stop-color="#ece2d2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <circle cx="300" cy="250" r="210" fill="#f1e3cc"/>
+  <ellipse cx="290" cy="438" rx="250" ry="18" fill="#2b1d14" opacity="0.12"/>
+
+  <!-- paper takeout bag -->
+  <g transform="translate(250 120)">
+    <path d="M20 70 L250 70 L238 318 L32 318 Z" fill="url(#kraft)"/>
+    <path d="M20 70 L250 70 L246 92 L24 92 Z" fill="#b8875a"/>
+    <path d="M90 70 C90 18, 180 18, 180 70" fill="none" stroke="#9c6f45" stroke-width="10" stroke-linecap="round"/>
+    <rect x="76" y="150" width="118" height="92" rx="12" fill="#2b1d14"/>
+    <text x="135" y="191" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#f4ead9" letter-spacing="1">YOUR</text>
+    <text x="135" y="218" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#e8553a" letter-spacing="1">LOGO</text>
+    <path d="M32 318 L238 318" stroke="#9c6f45" stroke-width="3"/>
+  </g>
+
+  <!-- sleeve / bakery bag -->
+  <g transform="translate(410 250) rotate(8)">
+    <path d="M0 0 L96 0 L96 190 L0 190 Z" fill="url(#sleevebag)" stroke="#d9ccb7" stroke-width="2"/>
+    <path d="M0 0 L12 -14 L24 0 L36 -14 L48 0 L60 -14 L72 0 L84 -14 L96 0" fill="url(#sleevebag)" stroke="#d9ccb7" stroke-width="2"/>
+    <circle cx="48" cy="92" r="26" fill="#e8553a"/>
+    <path d="M37 92 l8 8 l14 -16" fill="none" stroke="#fbf7f0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="18" y="140" width="60" height="6" rx="3" fill="#2b1d14" opacity="0.65"/>
+    <rect x="28" y="154" width="40" height="6" rx="3" fill="#2b1d14" opacity="0.35"/>
+  </g>
+
+  <!-- coffee cup -->
+  <g transform="translate(70 70)">
+    <rect x="-6" y="0" width="192" height="30" rx="12" fill="#2b1d14"/>
+    <rect x="4" y="-12" width="172" height="20" rx="9" fill="#3d2a1e"/>
+    <path d="M6 30 L174 30 L152 352 a12 12 0 0 1 -12 11 L40 363 a12 12 0 0 1 -12 -11 Z" fill="url(#cup)"/>
+    <!-- sleeve -->
+    <path d="M14 140 L166 140 L158 262 L22 262 Z" fill="#e8553a"/>
+    <path d="M14 140 L166 140 L165 152 L15 152 Z" fill="#c9422a"/>
+    <path d="M22 250 L158 250 L158 262 L22 262 Z" fill="#c9422a"/>
+    <text x="90" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#fbf7f0" letter-spacing="1.5">YOUR</text>
+    <text x="90" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#fbf7f0" letter-spacing="1.5">LOGO</text>
+    <!-- steam -->
+    <path d="M70 -30 c-14 -18 14 -26 0 -46" fill="none" stroke="#2b1d14" stroke-width="5" stroke-linecap="round" opacity="0.25"/>
+    <path d="M110 -30 c-14 -18 14 -26 0 -46" fill="none" stroke="#2b1d14" stroke-width="5" stroke-linecap="round" opacity="0.25"/>
+  </g>
+</svg>
